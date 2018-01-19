@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title></title>
+      <link rel="stylesheet" type="text/css" href="http://aioneframework.com/aioneframework/assets/css/aione.min.css">
+      <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400">
+      <!-- Core-->
+      <script type="text/javascript" src="http://aioneframework.com/aioneframework/assets/js/vendor.js"></script>
+      <script type="text/javascript" src="http://aioneframework.com/aioneframework/assets/js/aione.js"></script>
+      <!-- Google Analytics-->
+      <script type="text/javascript" src="http://aioneframework.com/assets/js/ga.js"></script>
+      <!-- Theme Styles and Scripts-->
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      <script type="text/javascript" src="assets/js/script.js"></script>
+    </head>
+    <style type="text/css">
+      button{
+        padding: 4px 30px;
+      }
+      .social-icon span{
+        background-color: #a5a5a5;
+        border-radius: 50%;
+        color: white;
+      }
+    
+</style>
+    <script type="text/javascript">
+      $('.counter').each(function() {
+        var $this = $(this),
+            countTo = $this.attr('data-count');
+        
+        $({ countNum: $this.text()}).animate({
+          countNum: countTo
+        },
+
+        {
+
+          duration: 8000,
+          easing:'linear',
+          step: function() {
+            $this.text(Math.floor(this.countNum));
+          },
+          complete: function() {
+            $this.text(this.countNum);
+            //alert('finished');
+          }
+
+        });  
+ });
+    </script>
+   <body>
+      <section>
+         <div id="aione_wrapper" class="aione-wrapper page-about layout-header-top aione-layout-wide aione-theme-arcane">
+            <div class="wrapper">
+               <div id="aione_header" class="aione-header light">
+               </div>
+               <!-- #aione-header -->
+                <div class="wrapper">
+                     <div class id="aione_content" class="aione-content">
+                        <div class="wrapper">
+                          <section>
+                            <div class="ar">
+                             <div class="ac l100 p-0" style="background-color: #f6f8fb">
+                               <div class="aione-align-center p-30">
+                                <h3 class="bold black">ABOUT US</h3>
+                               </div>
+                              </div>
+                            </div>
+                          </section>
+                           <section>
+                              <div class="ar pt-60 ph-40 pb-40">
+                                 <div class="ac l50 m100 s100 p-0">
+                                   <div class="image">
+                                     <img src="http://american-technology.net/blog/wp-content/uploads/2013/09/iStock_000032437548Medium.jpg">
+                                   </div>
+                                 </div>
+                                 <div class="ac l50 m100 s100">
+                                   <div class="content">
+                                    <h4 class="black mt-0 mb-20">Lorem ipsum dolor sit amet</h4>
+                                     <p class="font-size-13 aione-align-justify line-height-18 grey darken-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras euismod luctus libero. Sed iaculis sollicitudin efficitur. Sed mattis mollis sapien, quis blandit nulla placerat aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                      <br><br>
+                                      Cras euismod luctus libero. Sed iaculis sollicitudin efficitur. Sed mattis mollis sapien, quis blandit nulla placerat.  </p>
+                                   </div>
+                                   <div class="ar mt-20">
+                                     <div class="ac l20 m20 s20">
+                                      <img src="https://www.bestfxtools.com/ajax/imgoffer.php?id=900">
+                                     </div>
+                                     <div class="ac l40">
+                                       <h5 class="black font-size-13 bold">Mr. John Doe</h5>
+                                       <p class="black font-size-12 grey darken-4">CEO and Founder</p>
+                                     </div>
+                                     <div class="ac l40">
+                                      <img src="https://cdn1.mltaikins.com/wp-content/uploads/2017/09/dummysignature.png">
+                                     </div>
+                                   </div>
+                                 </div>
+                               </div>
+                           </section>
+                           <section>
+                             <div class="ar p-40">
+                               <div class="ac l33 m33 s33">
+                                 <div class="aione-align-center">
+                                   <i class="fa fa-building blue darken-4 font-size-30 pb-20"></i>
+                                   <h5 class="black font-weight-600 font-size-16 black mb-14">Management Consultency</h5>
+                                   <p class="font-size-13 grey darken-4 line-height-18"> Cras euismod luctus libero. Sed iaculis sollicitudin efficitur. Sed mattis mollis sapien, quis blandit nulla placerat.</p>
+                                 </div>
+                               </div>
+                               <div class="ac l33 m33 s33">
+                                 <div class="aione-align-center">
+                                   <i class="fa fa-bar-chart blue darken-4 font-size-30 pb-20"></i>
+                                   <h5 class="black font-weight-600 font-size-16 black mb-14">Management Consultency</h5>
+                                   <p class="font-size-13 grey darken-4 line-height-18"> Cras euismod luctus libero. Sed iaculis sollicitudin efficitur. Sed mattis mollis sapien, quis blandit nulla placerat.</p>
+                                 </div>
+                               </div>
+                               <div class="ac l33 m33 s33">
+                                 <div class="aione-align-center">
+                                   <i class="fa fa-line-chart blue darken-4 font-size-30 pb-20"></i>
+                                   <h5 class="black font-weight-600 font-size-16 black mb-14">Management Consultency</h5>
+                                   <p class="font-size-13 grey darken-4 line-height-18"> Cras euismod luctus libero. Sed iaculis sollicitudin efficitur. Sed mattis mollis sapien, quis blandit nulla placerat.</p>
+                                 </div>
+                               </div>
+                            </div>
+                           </section>
+                           <section>
+                             <div class="ar pt-60">
+                                <h3 class="bold aione-align-center black">Team</h3>
+                                <p class="aione-align-center">Cras euismod luctus libero. Sed iaculis sollicitudin efficitur</p>
+                               <div class="ac l25">
+                                  <div class="aione-align-center">
+                                     <img src="http://beardstyle.net/wp-content/uploads/2015/11/11-Stubble-beard-style-for-Youngsters.png">
+                                  </div>
+                               </div>
+                                <div class="ac l25">
+                                    <img src="http://keyassets-p2.timeincuk.net/wp/prod/wp-content/uploads/sites/30/2015/09/web-678945-630x472.jpg">
+                               </div>
+                                <div class="ac l25">
+                               <img src="http://www.damenfrost.com/shop/wp-content/uploads/2016/03/zac-efron-beard-style-for-round-face-287x300.jpg">
+                               </div>
+                               <div class="ac l25">
+                               
+                               </div>
+                             </div>
+                           </section>
+                           </div>
+                     </div>
+                  </div>
+               </div>
+         </div>
+      </section>
+   </body>
+</html>
