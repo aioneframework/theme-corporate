@@ -16,11 +16,22 @@
     <style type="text/css">
       button{
         padding: 4px 30px;
+        background-color: #01579b;
       }
       .social-icon span{
         background-color: #a5a5a5;
         border-radius: 50%;
         color: white;
+      }
+      ::-webkit-input-placeholder {
+        color: black;
+        font-weight: 100;
+        font-size: 13px;
+      }
+      .field input[type=password], .field input[type=email], .field input[type=text],.message{
+        border: none;
+        background: #faf8f7;
+        border: 1px solid #efefef;
       }
     </style>
    <body>
@@ -33,69 +44,57 @@
                <div class="wrapper">
                      <div class id="aione_content" class="aione-content">
                         <div class="wrapper">
-                           <section id="header" class="header bg-grey bg-lighten-3" style="background-image: url(https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/3551495/1160/772/m1/fpnw/wm0/clear-sky-preview-.png?1510232843&s=08859242cde636cffe91c9c9a44292c8);">
+                           <section id="header" class="header">
                               <div class="ar p-20 pb-40 ">
-                                <div class="ac s50 m50 l100"><h3 class="aione-align-center white mb-30">Contact Us</h3></div>
-                                <div class="ac s20 m20 l20">
+                                <div class="ac s50 m50 l100">
+                                  <div class="image">
+                                     <img src="http://web-design-poole.co.uk/wp-content/uploads/2015/12/contact-us.jpg"> 
                                   </div>
-                                 <div class="ac l60 s40 m45">
-                                    <div class="aione-border bg-white p-20" style="box-shadow: 0px 0px 25px rgb(61, 113, 143);">
+                                  </div>
+                                <div class="ac s40 m40 l30">
+                                  <div class="p-20 mt-10">
+                                    <button class="" style="padding: 9px 30px;">Contact Prospectus</button>
+                                    <div><h4 class="font-weight-700 font-size-18 grey darken-4">Contact Clue</h4></div>
+                                    <div class="contact-info mt-20">
+                                      <span class="font-size-20 mr-20"><i class="fa fa-map-marker grey darken-4"></i></span><span class="grey darken-4 font-size-13">#123 Rani Ka Bagh,Gurgaon</span>
+                                    </div>
+                                    <div class="contact-info mt-20">
+                                      <span class="font-size-20 mr-20"><i class="fa fa-phone grey darken-4"></i></span><span class="grey darken-4 font-size-13 black">+91-988875422</span>
+                                    </div>
+                                    <div class="contact-info mt-20">
+                                      <span class="font-size-20 mr-20"><i class="fa fa-globe grey darken-4"></i></span><span class="grey darken-4 font-size-13 black">oxosolutions.com</span>
+                                    </div>
+                                  </div>
+                                </div>
+                                 <div class="ac l70 s40 m45">
+                                    <div class="bg-white p-20">
                                       <div id="aione_form_section_95" class="aione-form-section non-repeater">
-                                           <div id="aione_form_section_content" class="aione-form-section-content">
-                                                  <div class="aione-row ar">
-                                                      <div id="field_label_name" class="field-label">
-                                                           <label for="input_name">
-                                                              <h4 class="field-title" id="Name">
-                                                                 Name
-                                                              </h4>
-                                                           </label>
-                                                       <div id="field_name" class="field field-type-text">
-                                                           <input class="input-name" id="input_name" data-validation="" name="name" type="text">
+                                          <div id="aione_form_section_content" class="aione-form-section-content">
+                                              <div class="aione-row ar">
+                                                <div><h6 class="font-size-16 grey darken-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquam justo massa, nec interdum quam maximus lacinia.</h6></div>
+                                                  <div class=""><h4 class="grey darken-4 font-weight-700 font-size-18 mt-17">Contact Detail</h4></div>
+                                                  <div id="field_label_name" class="field-label" style="margin-top: 27px;">
+                                                      <div id="field_name" class="field field-type-text">
+                                                         <input class="input-name bg-white" id="input_name" data-validation="" name="name" placeholder="Name" type="text">
                                                         </div>
                                                      </div>
-                                                     <div id="field_label_email" class="field-label">
-                                                           <label for="input_email">
-                                                              <h4 class="field-title" id="Email">
-                                                                 Email
-                                                              </h4>
-                                                           </label>
+                                                    <div id="field_email" class="field field-type-email">
+                                                        <input class="email bg-white" id="input_email" name="email" type="email" placeholder="Email">
+                                                    </div>
+                                                        <div id="field_password" class="field field-type-password">
+                                                           <input class="password bg-white" id="input_password" name="password" placeholder="Password" type="password">
                                                         </div>
-                                                        <div id="field_email" class="field field-type-email">
-                                                           <input class="email" id="input_email" name="email" type="email">
-                                                        </div>
-                                                       <div id="field_label_password" class="field-label">
-                                                           <label for="input_password">
-                                                              <h4 class="field-title" id="password">
-                                                                 Password
-                                                              </h4>
-                                                           </label>
-                                                        </div>
-                                                         <div id="field_password" class="field field-type-password">
-                                                           <input class="password" id="input_password" name="password" type="password">
-                                                        </div>
-                                                        <div>
-                                                        <div id="field_label_message" class="field-label">
-                                                          <label for="input_message">
-                                                            <h4 class="field-title" id="Message">
-                                                            Message
-                                                            </h4>
-                                                          </label>
-                                                        </div>
-                                                        <div id="field_message" class="field field-type-textarea">
-                                                        <textarea class="message" id="input_message" rows="3" cols="50" name="message" style="resize: none;"></textarea>
+                                                       <div id="field_message" class="field field-type-textarea">
+                                                        <textarea class="message bg-white" id="input_message" rows="3" cols="50" name="message" placeholder="Write Massege..." style="resize: none;background-color:#faf8f7"></textarea>
                                                         </div>
                                                         <div id="field_send" class="field field-type-button">
-                                                        <input class="send" id="input_send" type="submit" value="Send">
-                                                        </div>
-                                                      </div>
+                                                          <input class="send" id="input_send" type="submit" value="Send" style="background-color:#01579b;">
                                                     </div>
                                                </div>
                                           </div>
                                       </div>
                                   </div>
-                                  <div class="ac s20 m20 l20">
-                                  </div>
-                                </div>
+                                 </div>
                            </section>
                          </div>
                      </div>
